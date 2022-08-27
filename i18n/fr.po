@@ -1,0 +1,100 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_picking_done_cancel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-27 14:58+0000\n"
+"PO-Revision-Date: 2022-08-27 14:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_picking_done_cancel
+#: model_terms:ir.ui.view,arch_db:stock_picking_done_cancel.view_confirm_picking_force_cancel
+msgid "Apply"
+msgstr "Appliquer"
+
+#. module: stock_picking_done_cancel
+#: model_terms:ir.ui.view,arch_db:stock_picking_done_cancel.view_confirm_picking_force_cancel
+#: model_terms:ir.ui.view,arch_db:stock_picking_done_cancel.view_picking_form_inherited
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: stock_picking_done_cancel
+#: code:addons/stock_picking_done_cancel/models/stock_picking.py:0
+#, python-format
+msgid "Cancel confirm"
+msgstr "Confirmation d'annulation"
+
+#. module: stock_picking_done_cancel
+#: model:res.groups,name:stock_picking_done_cancel.group_stock_picking_done_cancel
+msgid "Cancel done pickings"
+msgstr "Annuler les transferts faits"
+
+#. module: stock_picking_done_cancel
+#: model_terms:ir.ui.view,arch_db:stock_picking_done_cancel.view_confirm_picking_force_cancel
+msgid "Confirm cancel"
+msgstr "Confirmation d'annulation"
+
+#. module: stock_picking_done_cancel
+#: model:ir.model.fields,field_description:stock_picking_done_cancel.field_stock_picking_force_cancel_confirm__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model:ir.model.fields,field_description:stock_picking_done_cancel.field_stock_picking_force_cancel_confirm__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model:ir.model.fields,field_description:stock_picking_done_cancel.field_stock_picking_force_cancel_confirm__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model_terms:ir.ui.view,arch_db:stock_picking_done_cancel.view_confirm_picking_force_cancel
+msgid "Do you really want to cancel the selected transfers?"
+msgstr "Voulez-vous vraiment annuler les transferts sélectionnés?"
+
+#. module: stock_picking_done_cancel
+#: model:ir.model,name:stock_picking_done_cancel.model_stock_picking_force_cancel_confirm
+msgid "Force cancel confirm"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model:ir.model.fields,field_description:stock_picking_done_cancel.field_stock_picking_force_cancel_confirm__id
+msgid "ID"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model:ir.model.fields,field_description:stock_picking_done_cancel.field_stock_picking_force_cancel_confirm____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model:ir.model.fields,field_description:stock_picking_done_cancel.field_stock_picking_force_cancel_confirm__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model:ir.model.fields,field_description:stock_picking_done_cancel.field_stock_picking_force_cancel_confirm__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: stock_picking_done_cancel
+#: model:ir.model,name:stock_picking_done_cancel.model_stock_picking
+msgid "Transfer"
+msgstr "Transfert"
+
+#. module: stock_picking_done_cancel
+#: code:addons/stock_picking_done_cancel/models/stock_picking.py:0
+#: code:addons/stock_picking_done_cancel/models/stock_picking.py:0
+#, python-format
+msgid "You can not cancel done pickings"
+msgstr "Vous ne pouvez pas annuler des transferts faits,veuillez contacter l'administrateur"
